@@ -1,0 +1,126 @@
+.services a{
+    text-decoration:none
+    font size:26px;
+    line-height: 20px;
+    color: black
+}
+.services a:hover
+{
+        color:blue;
+}
+
+.ITimage{
+height: 300px;
+width: 350px;
+margin-left: 7%;
+margin-top: 5%;
+
+}
+
+.it{
+    position: relative;
+font-size: 25px;
+margin-left: 17.5%;
+    margin-top: -1%;
+    text-decoration-line: none;
+
+
+}
+
+.gp{
+height: 300px;
+width: 350px;
+margin-left: 70%;
+margin-top: -32%;
+}
+
+.graphics{
+text-decoration: none;
+margin-left: 78%;
+font-size: 25px;
+margin-top: -7%;
+}
+
+.webp{
+height: 300px;
+width: 350px;
+margin-left: 39%;
+margin-top: -31.5%;
+
+}
+.web{
+text-decoration: none;
+margin-left: 42.5%;
+font-size: 25px;
+margin-top: -6.7%;
+}
+
+.appPic{
+height: 300px;
+width: 350px;
+margin-left: 7%;
+margin-top: 2%;
+}
+
+.app{
+text-decoration: none;
+margin-left: 11%;
+font-size: 25px;
+margin-top: 1%;
+}
+
+.backp{
+height: 300px;
+width: 350px;
+margin-left: 39%;
+margin-top:-24.3%; 
+}
+
+.back{
+font-size: 25px;
+margin-left: 40%;
+margin-top: -3%;
+    
+}
+
+.writingp{
+height: 300px;
+width: 350px;
+margin-left: 50%;
+margin-top: -41%;
+
+}
+
+.writing{
+margin-left: 65%;
+font-size: 25px;
+margin-top: -6%;
+}
+
+.it2{
+height: 300px;
+width: 350px;
+    
+    
+    
+}
+
+.graphics a:hover
+{
+        color:blue;
+}
+
+.web a:hover
+{
+        color:blue;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

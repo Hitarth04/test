@@ -1,0 +1,153 @@
+<html>
+<head>
+    <title>"About us"</title>
+    <link rel="stylesheet" type="text/css" href="aboutus.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" type="text/css" href="head.css">
+    <link rel="stylesheet" type="text/css" href="slider.css">
+        
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+ 
+	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    </head>
+<body>
+   
+    <div class="logo">
+           <a href="index.html"><img src="final_no_bg.png" width="90" height="90"></a></div>
+        <div class="topnav">
+  <a href="aboutus.html">About Us</a>
+  <a href="contect-us%20(1).html">Contact Us</a>
+  <a href="login.html">Login</a>
+  <a href="register2.html">Registration</a>
+  <a href="services.html">Services</a>
+  <a href="index.html">Home</a>
+</div>
+       <div class="hr"></div>
+   
+   
+    <div class="title">
+    <p>About us</p>
+    </div>
+
+    <center> <img src="freelance-life.1.png" class=aboutpic></center><br>
+    <div class="aboutustext">
+    <p><font color="#2e3091">b</font>e<font color="#2e3091">L</font>ancea is a trusted web-platform for freelancing.</p>
+    <p>Working from home is often cited as an attractive feature of freelancing, yet reseacher suggests working form home introduce new set of constraints for the process of doing work, particularly for married women with families, who continue to bear the brunt of household chores and child-care despite increases in their paid work 
+    time.
+    </div>
+       
+       
+       <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="feed.jpg" style="width:95%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="feed2.jpg" style="width:95%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="test.png" style="width:95%">
+  <div class="text"></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>   
+       
+        
+        <footer class="footer-distributed">
+ 
+			<div class="footer-left">
+          <img src="final_no_bg.png">
+				<h3>About<span>belancea</span></h3>
+ 
+				<p class="footer-links">
+					<a href="index.html">Home</a>
+					|
+					<a href="#">About</a>
+					|
+					<a href="#">Contact</a>
+				</p>
+ 
+				<p class="footer-company-name">© 2019 beLancea Pvt. Ltd.</p>
+			</div>
+ 
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					  <p><span>309 - Rupa Solitaire,
+						 Bldg. No. A - 1, Sector - 1</span>
+						Mahape, Navi Mumbai - 400710</p>
+				</div>
+ 
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+91 22-27782183</p>
+				</div>
+				<div>
+
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@eduonix.com">support@belancea.com</a></p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p class="footer-company-about">
+					<span>About the company</span>
+					We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					
+				</div>
+			</div>
+		</footer>
+        
+    </p>
+    </body>
+</html>
+

@@ -1,0 +1,47 @@
+
+.topnav {
+  background-color: #289BE8;
+  overflow: auto;
+}
+
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 35px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.topnav a.active {
+ 
+  color: white;
+}
+
+
+.logo{
+    
+   padding: 0px 5px;
+    position: absolute;
+   
+}
+
+
+.hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 10px;
+  border-color: blue;
+} 

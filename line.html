@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Line</title>
+<style>
+body{
+margin: 0;
+background-image: url(bgl2.png);
+padding: 0;
+background-size: cover;
+background-position: center;
+}
+    
+.line{
+width: 250px;
+height: 8px;
+background: linear-gradient(to right,white,white);
+background-color: #ccc;
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+border-radius: 4px;
+background-size: 20%;
+background-repeat: repeat-y;
+background-position: -25% 0;
+animation:scroll 1.2s ease-in-out infinite;
+margin-right: 75%;
+margin-top: 30%;
+}
+    
+    .p{
+        margin-right: 75%;
+        margin-top: 20%;
+        font-size: 26px;
+        font-family: sans-serif;
+        
+    }
+    
+    @keyframes scroll{
+        50%{background-size: 80%}
+        100%{background-position: 125% 0;}
+    </style>
+    </head>
+    
+    <body>
+     
+    <div class="line"><p>Coming Soon</p></div>
+    
+    
+    </body>
+</html>    
+     

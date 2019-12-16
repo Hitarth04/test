@@ -1,0 +1,19 @@
+.text1{
+    margin-left: 65%;
+    margin-top: -28%;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.text2{
+    margin-left: 65%;
+    font-family: sans-serif;
+    margin-top: -9%;
+    font-size: 22;
+    
+}
+
+.side{
+    background-image: url(side.png);
+    
+}
